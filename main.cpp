@@ -1,5 +1,5 @@
 #include <iostream>
 int main() {
-  std::cout<<"x"<<std::endl;
+  std::cout<<"xy"<<std::endl;
   return 0;
 }
