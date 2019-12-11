@@ -1,3 +1,4 @@
+group: cnuapp
 env:
   global:
     - S1=true
