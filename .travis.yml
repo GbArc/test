@@ -1,5 +1,5 @@
 group: cnuapp
-language: python
+language: cpp
 env:
   global:
     - S1=true
