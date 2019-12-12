@@ -1,5 +1,5 @@
 group: cnuapp
-language: ruby
+language: cpp
 env:
   global:
     - S1=true
