@@ -1,4 +1,5 @@
 group: cnuapp
+language: cpp
 env:
   global:
     - S1=true
