@@ -1,4 +1,3 @@
-language: cpp
 os: linux
 script:
 - echo "called!"
