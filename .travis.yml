@@ -11,8 +11,7 @@ jobs:
             - libgl1-mesa-dev
             - libglu1-mesa-dev
       script: make
-    - os: osx
-      compiler:
-       - clang
+    - os: linux
+      dist: xenial
       script: make
 
