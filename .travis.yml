@@ -1,4 +1,18 @@
-os: linux
-dist: xenial
-script:
-- echo "called !"
+language: cpp
+jobs:
+  include:
+    - os: linux
+      compiler:
+       - gcc
+      addons:
+        apt:
+          packages:
+            - libx11-dev
+            - libgl1-mesa-dev
+            - libglu1-mesa-dev
+      script: make
+    - os: osx
+      compiler:
+       - clang
+      script: make
+
