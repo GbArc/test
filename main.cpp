@@ -1,6 +1,6 @@
 #include <iostream>
 int main() {
-  std::cout<<"yxyxyx"<<std::endl;
+  std::cout<<"xyxyx"<<std::endl;
  
  return 0;
 }
