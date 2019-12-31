@@ -1,2 +1,2 @@
 all:
-		gz++ -o test.elf main.cpp
+		g++ -o test.elf main.cpp
