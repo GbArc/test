@@ -1,4 +1,8 @@
 language: cpp
+addons:
+  postgresql: 9.6
+services:
+  redis
 jobs:
   include:
     - os: linux
