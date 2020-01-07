@@ -3,25 +3,11 @@ addons:
   postgresql: 9.6
 services:
   redis
-jobs:
-  include:
-    - os: linux
-      compiler:
-       - gcc
-      addons:
-        apt:
-          packages:
-            - libx11-dev
-            - libgl1-mesa-dev
-            - libglu1-mesa-dev
-      script: 'smake'
-    - os: linux
-      dist: xenial
-      addons:
-        apt:
-          packages:
-            - libx11-dev
-            - libgl1-mesa-dev
-            - libglu1-mesa-dev
-      script: "make"
-
+os: linux
+addons:
+  apt:
+    packages:
+    - libx11-dev
+    - libgl1-mesa-dev
+    - libglu1-mesa-dev
+script: 'env'
