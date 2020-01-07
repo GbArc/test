@@ -4,6 +4,7 @@ addons:
 services:
   redis
 os: linux
+dist: xenial
 addons:
   apt:
     packages:
