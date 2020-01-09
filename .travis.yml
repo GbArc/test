@@ -1,4 +1,7 @@
 language: cpp
+notifications:
+  email:
+    on_success: always
 addons:
   postgresql: 9.6
 services:
@@ -10,4 +13,4 @@ addons:
     - libx11-dev
     - libgl1-mesa-dev
     - libglu1-mesa-dev
-script: 'envxx'
+script: 'env'
