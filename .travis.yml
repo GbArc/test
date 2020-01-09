@@ -14,4 +14,3 @@ addons:
     - libgl1-mesa-dev
     - libglu1-mesa-dev
 script: 'env'
-
