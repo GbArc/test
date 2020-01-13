@@ -29,4 +29,4 @@ cache:
 notifications:
   slack:
     secure: tfaacUayz+dVGzLylWiGuvGMmLB8MdUhhXeNl1y/3t8BlqFdMuNnda/YG+nNjA/Wg76Oco6rxLIPq/3IyIj8ae03VEXdbHcQwJv8s5eF8m3jacUiow7WBqNNKHrIa+mcdkmvCLBE+ChF1KUIGL6DFRIn0NitO8q+FAOh2m+YQKqppyLQZYLYl47u8fuscyc/C6L5jfRhY+9my1JD/50KBotJl1aA347b7yNU5sszM8JJJbXYUAcjDYJF5xxGS5Ygpu3zsZLpHWxJi1nO27Gd/NSPmBrOf0T74vFUjI9t9cVfDdpFAfSm/jkH/0Fc/nrp9wrPaLWFOlJFpx/fIMu/wXnwLEjHbgWgsvOXPP/O1L7EFJvhNNLD3JIK/N/tTuUwMsZ/EvlW5fIB7yQv9kRZ9F5XPPC+WsDBCvCZWY/3zZOyIjhdVFzEOoMK73ZJorcTj+uooqEFQA5NTq83/D3UnNME4s7q+2+waFKGUXHqTChulX8xSXPZ7TdhMw7FeFOQ47ZME7ZV7qK4bwhr0XfGtVqgCYqmKbOgK1xDocnXo0yvBvJQuPNxQxv9JtEvE6UI4mFSBrBMpEShG42Mb5BAe1SYKQ+YSPH7ut5kXyXKWqLCuDb6Q0XmXYG346uuGVZU4t4SW4SPEpbfc18nfvr4mu6sFWRq96Djequr0ikCZ1Q=
-      - "Assembla WebApp Automation:\nBuild: <%{build_url}|#%{build_number}>\nResult: %{result} in %{duration}"
+    - "Assembla WebApp Automation:\nBuild: <%{build_url}|#%{build_number}>\nResult: %{result} in %{duration}"
