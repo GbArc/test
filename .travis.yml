@@ -25,3 +25,13 @@ jobs:
             - libglu1-mesa-dev
       script: "env"
 
+    - os: linux
+      dist: bionic
+      addons:
+        apt:
+          packages:
+            - libx11-dev
+            - libgl1-mesa-dev
+            - libglu1-mesa-dev
+      script: "env"
+
