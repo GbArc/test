@@ -6,6 +6,7 @@ services:
 jobs:
   include:
     - os: linux
+      dist: trusty
       compiler:
        - gcc
       addons:
